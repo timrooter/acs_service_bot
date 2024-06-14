@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: tgbot
+bot:
+  name: ACS_Service_Bot
+  token: 7430500737:AAE8cANHT2m7xl7UPJYVs7H_9X4jmiWevBw
+  admin:
+    id: 837014216
