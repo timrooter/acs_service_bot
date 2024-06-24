@@ -1,8 +1,17 @@
 spring:
   application:
     name: tgbot
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1953
 bot:
   name: ACS_Service_Bot
   token: 7430500737:AAE8cANHT2m7xl7UPJYVs7H_9X4jmiWevBw
+  groupId: -1002171279145
   admin:
-    id: 610688216
+#    id: 610688216
+     id: 837014216
