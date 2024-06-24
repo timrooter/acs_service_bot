@@ -3,11 +3,17 @@ spring:
     name: tgbot
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: postgres
+#    password: 1953
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: 1953
+    url: jdbc:postgresql://rain.db.elephantsql.com:5432/bhoyqvin
+    username: bhoyqvin
+    password: 341M2nN6zwho7QJZUU4ZDcqUuYvSM5Cr
+
 bot:
   name: ACS_Service_Bot
   token: 7430500737:AAE8cANHT2m7xl7UPJYVs7H_9X4jmiWevBw
